@@ -1,1 +1,170 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+}
 
+/* PARTIE HEADER ------------------- */
+.head{
+    width: 100%;
+    display: flex;
+    height: 8vh;
+    /* margin-bottom: 100px; */
+    background-color: white;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+}
+.images_head{
+    max-height: 100%;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+}
+.titre a {
+    margin: 0px;
+    padding: 0px;
+    width: 8%;
+}
+.titre h1{
+    width: 60%;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.logo{
+    /* width: 10%; */
+    max-height: 100%;
+    width: auto;
+}
+.titre {
+    /* width: 30%; */
+    max-height: 100%;
+    display: flex;
+}
+.image_menu{
+    /* width: 10%; */
+    max-height: 100%;
+    text-align: right;
+}
+.vert{
+    background-color: rgb(90, 150, 31);
+}
+/* PARTIE MAIN ------------------------- */
+
+.main {
+    display: flex;
+    height: 82.5vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+}
+
+.div_droite {
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+}
+
+/* PARTIE DE GAUCHE ------------------------------------------------- */
+.div_gauche{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+}
+/* TABLEAU DE GAUCHE -------------------------------- */
+.tableau_gauche {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.cahier{
+    height: 40%;
+}
+.cahier img{
+    height: 80%;
+}
+.legende{
+    /* display: flex; */
+}
+.legende p{
+    margin: 0px;
+    margin-bottom: 3px;
+}
+
+/* TABLEAU DE DROITE -------------------------------- */
+.ligne TD{
+    background-color: rgb(255, 255, 255);
+}
+.tableau_droite{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.colonne0{
+    width: 10%;
+}
+.colonne1{
+    width: 10%;
+}
+.colonne2{
+    width: 10%;
+}
+.colonne3{
+    width: 10%;
+}
+.colonne4{
+    width: 10%;
+}
+.colonne5{
+    width: 10%;
+}
+.urgent{
+    background-color: crimson;
+}
+.pas_oublier{
+    background-color: darkorange;
+}
+.peu_important{
+    background-color: deepskyblue;
+}
+
+/* PARTIE FOOTER ------------------------- */
+.foot{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    border-top: 2px solid black;
+    margin-bottom: 0px;
+}
+.foot p{
+    margin: 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+/* PAGE FORMULAIRE ---------------------------- */
+.main2{
+    display: flex;
+    justify-content: center;
+    height: 82vh;
+    align-items: center;
+}
+
+.block{
+    border: 3px solid rgb(64, 180, 80);
+    padding: 10px;
+    text-align: center;
+}
+.block h1{
+    color: rgb(255, 0, 0);
+}
+.form1 article{
+    margin-top: 10px;
+}

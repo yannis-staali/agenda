@@ -1,1 +1,61 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="agenda.css">
+</head>
+    <body>
+        <header class="head">
+            <section class="logo">
+                <a href="#"><img src="images/logo_agenda.png" class="images_head"></a>
+            </section>
+            <section class="titre">
+                <a href="#"><img src="images/fleche_gauche.png" class="images_head"></a>
+                <h1>OCTOBRE 2020</h1>
+                <a href="#"><img src="images/fleche_droite.png" class="images_head"></a>
+            </section>
+            <section class="image_menu">
+                <a href="#"><img src="images/menu_burger.png" class="images_head"></a>
+            </section>
+        </header>
+
+        <main class="main2">
+            <section class="block">
+            <h1>Ajouter un évènement</h1>
+            <form class="form1" action="traitement.php" method="post">
+                <article class="titre">
+                    <label for="titreEvent">Titre de l'évènement :</label>
+                    <input type="text" id="titreEvent" name="titre" required>
+                </article>
+                <article class="date">
+                    <label for="date_event">Date de l'évènement :</label>
+                    <input type="date" id="date_event" name="date" required>
+                </article>
+                <article class="description">
+                    <label for="desc_event">Entrez une description :</label>
+                    <textarea id="desc_event" name="description" rows="3" required></textarea>
+                </article>
+                <article class="categorie">
+                    <label for="cat_event">Choisir la catégorie :</label>
+                    <select id="cat_event" name="categorie" required>
+                        <option value="">-choisir la catégorie-</option>
+                        <option value="urgent">Urgent</option>
+                        <option value="pas_oublier">Ne pas oublier</option>
+                        <option value="peu_important">Peu important</option>
+                    </select>
+                </article>
+                <article class="boutton2">
+                    <button formaction="liste.html" type="submit">Envoyer</button>
+                </article>
+            </form>  
+            </section>              
+        </main>
+
+        <footer class="foot">
+            <p>Yaya Production™</p>
+        </footer>
+    </body>
+</html>
