@@ -53,6 +53,20 @@ body{
 .vert{
     background-color: rgb(90, 150, 31);
 }
+.ajout{
+    color: red;
+    background-color: rgb(235, 157, 135);
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    padding: 3px;
+    border-radius: 10px;
+
+}
+.create{
+    padding: 10px;
+    text-decoration: none;
+}
 /* PARTIE MAIN ------------------------- */
 
 .main {
